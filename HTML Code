@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <script src="https://kit.fontawesome.com/7660487ae8.js" crossorigin="anonymous"></script>
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                    </button>
+<nav class="nav">
+ <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+            </nav>
+            </header>
+            <!--Introduction-->
+ <section class="intro" id="home">
+ <h1 class="section__title section__title--intro">
+  Hi, I am <strong>Shahim Panjwani</strong>
+  </h1>
+   <p class="section__subtitle section__subtitle--intro">Student Software Engineer</p>
+   <img src = "https://media-exp2.licdn.com/dms/image/C5603AQHXWw7EI6q3cg/profile-displayphoto-shrink_400_400/0/1656270189811?e=1662595200&v=beta&t=8Iau2IWqvWg6xtRLCyN77pQmYOZSP8K9oB2_VqTMV7E" alt = "a picture of Shahim Panjwani smiling" class = "intro__img">
+   </section>
+   
+   
+   <!--My Services-->
+   <section class= "my-services" id="services">
+       <h2 class = "section__title section__title--services">What I do</h2> 
+       <div class="services">
+           <div class="service">
+               <h3>Software Development</h3>
+               <p>
+                   Since I am currently majoring in software engineering, I am focusing on strengthening my skills regarding certain languages such as C++, Java, and JavaScript so I am better prepared to develop real world applications.
+                   </div> <!--service-->
+                   <div class="service">
+               <h3>Solidity Smart Contract Development</h3>
+               <p>
+                   I am currently strenghtening my skills in Solidity and Javascript to potentially create smart contracts and APIs to be used in the Web2 and Web3 space.
+                   </div> <!--service-->
+                   <div class="service">
+               <h3>Front-End Development</h3>
+               <p>
+                   I build flawless and detailed websites and other front-end applications that users and companies are able to interact with.
+                   </div> <!--service-->
+                   </div> <!-- /service-->
+                   <a href="#work" class="btn">My work</a>
+       </section>
+       <!--About Me-->
+       <section class = "about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+                 <p class ="section__subtitle section__subtitle--about">Software engineering student based out of Dallas</p>
+              Having a knack for computer science and software engineering for the past several years has guided me throughout my academic career and extracurricular life. I always knew that I wanted to enter the software engineering field, but making the decision to add a business angle to my college direction was a recent shift, as the worlds of business and software engineering are colliding in the near future.
+              As a business administration and software engineering major at the Naveen Jindal School of Management and the Erik Jonsson School of Engineering and Computer Science at UT Dallas, I am always working and collaborating with peers to gain new knowledge and experience. Computer science has always been a passion of mine and I am elated to continue to apply that to my college education. When I am not in the classroom, I love challenging myself in a variety of video games,spending quality time with my family and friends, and researching the stock market! Especially tracking trends in the market and investing in companies that are set to yield large profits are concepts that I truly enjoy. I am currently looking for internships or jobs in the business administration or computer science industry so please feel free to reach out and connect with me!
+        <div class ="about-me__body">
+            <p></p>
+                 <p></p>
+        </div>
+        
+        <img src="https://pbs.twimg.com/profile_images/1538985270342733824/Wg4hY5aA_400x400.jpg" alt = "Who I am Picture" class = "about-me__img">
+       </section>
+           
+                 <!--My Work-->
+           <section class = "my-work" id="work">
+           <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+           
+           <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93ed8535cc42d8a2367164a9b89d07d1" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93ed8535cc42d8a2367164a9b89d07d1" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93ed8535cc42d8a2367164a9b89d07d1" alt="" class="portfolio__img">
+                </a>
+           
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93ed8535cc42d8a2367164a9b89d07d1" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93ed8535cc42d8a2367164a9b89d07d1" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93ed8535cc42d8a2367164a9b89d07d1" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+        
+           <footer class="footer">
+           <!--Footer-->
+    <a href = "mailto:shahim.panjwani@gmail.com" class="footer__link">shahim.panjwani@gmail.com</a>
+                   <ul class = "social-list">
+                    <li class = "social-list__item"><a class = "social-list__link" href= "https://www.instagram.com/shahim.p/">
+                     <!--Social Icon-->
+                    <i class="fa-brands fa-instagram"></i>
+                    </a></li>
+                   <li class = "social-list__item"><a class = "social-list__link" href = "https://www.linkedin.com/in/shahim-panjwani/">
+                         <!--Social Icon-->
+                   <i class="fa-brands fa-linkedin"></i>
+                   </a></li>
+                   <li class = "social-list__item"><a class = "social-list__link" href = "https://github.com/ShahimTBG">
+                         <!--Social Icon-->
+                   <i class="fa-brands fa-github"></i>
+                   </a></li>
+                   <li class = "social-list__item"><a class = "social-list__link" href = "https://twitter.com/MarksmanVF2">
+                         <!--Social Icon-->
+                   <i class="fa-brands fa-twitter"></i>
+                   </a></li>
+                   
+        </body>
+</html>
